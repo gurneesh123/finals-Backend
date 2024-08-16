@@ -12,7 +12,7 @@ app.use(express.json());
 
 // CORS configuration
 app.use(cors({
-    origin: "https://finals-backend.vercel.app/", // only doing the backend
+    origin: "https://localhost:5000/", // only doing the backend
     credentials: true
 }));
 app.use(express.json());
